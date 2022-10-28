@@ -6,7 +6,7 @@ function Token(props) {
     <Tr>
       <Th>
         <a href="#">
-          <i class="fa-solid fa-pen-to-square"></i>
+          <i className="fa-solid fa-pen-to-square"></i>
         </a>
         {props.text}
       </Th>

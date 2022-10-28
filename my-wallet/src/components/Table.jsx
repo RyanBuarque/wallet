@@ -6,15 +6,19 @@ import Token from './Token'
 function Table() {
   return (
     <TB>
-    <tr>
-      <th>Tokens</th>
-      <th>Balance</th>
-    </tr>
-    <Token text="klv" value="290,000.00"/>
-    <Token text="dvk" value="15,000.00"/>
-    <Token text="kfi" value="5"/>
-    <Token text="eth" value="0.005"/>
-  </TB>
+      <thead>
+        <tr>
+          <th>Tokens</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <Token text="klv" value="290,000.00" />
+        <Token text="dvk" value="15,000.00" />
+        <Token text="kfi" value="5" />
+        <Token text="eth" value="0.005" />
+      </tbody>
+    </TB>
   )
 }
 
@@ -22,12 +26,12 @@ const TB = styled.table`
   margin-top: 50px;
   width: 100%;
 
-  > tr {
+  tr {
     display: flex;
     justify-content: space-between;
   }
 
-  tr:first-child {
+  thead {
     margin-bottom: 20px;
     th {
       font-size: 0.8em;

@@ -14,8 +14,8 @@ function Add(props) {
       <Input text="Token" type="text" />
       <Input text="Balance" type="number" />
       <div>
-        <Button text="Remover" />
-        <Button text="Salvar" />
+        <Button danger text="Remover" />
+        <Button primary text="Salvar" />
       </div>
     </Div>
   )
