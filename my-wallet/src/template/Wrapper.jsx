@@ -15,7 +15,7 @@ function Wrapper(props) {
           <h1>
             <StarImg src={star} /> Wish Wallet
           </h1>
-          <Button primary text="Add Token" />
+          <Button primary="true" text="Add Token" to="/add"/>
         </HeaderMain>
         {children}
         {/* <Table /> */}

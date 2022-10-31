@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 function Token(props) {
   return (
     <Tr>
       <Th>
-        <a href="#">
+        {/* <Link to="/edit" ></Link> */}
+        <a href="#" >
           <i className="fa-solid fa-pen-to-square"></i>
         </a>
         {props.text}

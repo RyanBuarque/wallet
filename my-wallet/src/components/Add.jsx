@@ -9,13 +9,13 @@ function Add(props) {
     <Div>
       <div>
         <legend>{props.text}</legend>
-        <Button text="Voltar" />
+        <Button text="Voltar" to="/" />
       </div>
       <Input text="Token" type="text" />
       <Input text="Balance" type="number" />
       <div>
-        <Button danger text="Remover" />
-        <Button primary text="Salvar" />
+        <Button danger="true" text="Remover" />
+        <Button primary="true" text="Salvar" />
       </div>
     </Div>
   )
